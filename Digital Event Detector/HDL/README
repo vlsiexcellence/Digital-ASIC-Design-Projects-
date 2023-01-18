@@ -1,1 +1,5 @@
 Contains Verilog HDL Design & Test Bench Code 
+
+1) For Input Asynchronous Data & {event_detector_async.v}
+
+2) Synchronize the Input Data before Passing it to Event Detector {event_detector_sync.v}

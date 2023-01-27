@@ -24,7 +24,7 @@ module Fixed_Priority_Arbiter(
 );
 
   always @ (posedge clk or negedge reset_n)
-		begin		
+	begin		
           if(!reset_n)
 				o_Gnt <= 4'b0000;
           else if(i_Req[3])
@@ -37,5 +37,5 @@ module Fixed_Priority_Arbiter(
 				o_Gnt <= 4'b0001;
           else
 				o_Gnt <= 4'b0000;
-		end
+	end
 endmodule//Fixed_Priority_Arbiter

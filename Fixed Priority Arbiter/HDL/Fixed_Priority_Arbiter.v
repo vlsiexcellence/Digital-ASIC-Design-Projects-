@@ -17,8 +17,8 @@ Follow VLSI Excellence Page on Linkedin: https://www.linkedin.com/in/vlsi-excell
 
 module Fixed_Priority_Arbiter(
 
-		input            clk,
-		input            reset_n,
+        input            clk,
+	input            reset_n,
         input [3:0]      i_Req,
         output reg [3:0] o_Gnt
 );
